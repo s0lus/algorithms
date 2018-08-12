@@ -1,14 +1,21 @@
 
 import React, { PureComponent } from 'react';
-import { StyleSheet, Text, View } from "react-native";
+import {StyleSheet, Text, View} from "react-native";
 
-export default class Home extends PureComponent{
+export default class Home extends PureComponent {
+    static navigationOptions = () => ({
+        header: null,
+    });
+
     render() {
         return (
             <View style={styles.container}>
-                <Text>Open up App.js to start working on your app!</Text>
-                <Text>Changes you make will automatically reload.</Text>
-                <Text>Shake your phone to open the developer menu.</Text>
+                <View style={styles.top}>
+                    <Text style={styles.text}>Алгоритмы</Text>
+                </View>
+                <View style={styles.bottom}>
+                    <Text style={styles.text}>Сткрутуры данных</Text>
+                </View>
             </View>
         );
     }
@@ -17,8 +24,29 @@ export default class Home extends PureComponent{
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#FFFFFF',
+        justifyContent: 'space-around',
         alignItems: 'center',
-        justifyContent: 'center',
     },
+    top: {
+        backgroundColor: '#FFFFFF',
+        justifyContent: 'center',
+        borderWidth: 1,
+        borderRadius: 10,
+        borderColor: '#000000',
+        height: 100,
+        width: '85%',
+    },
+    bottom: {
+        backgroundColor: '#FFFFFF',
+        justifyContent: 'center',
+        borderWidth: 1,
+        borderRadius: 10,
+        borderColor: '#000000',
+        height: 100,
+        width: '85%',
+    },
+    text: {
+        textAlign: 'center',
+    }
 });
