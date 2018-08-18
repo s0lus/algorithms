@@ -1,6 +1,8 @@
 
 import React, { PureComponent } from 'react';
-import {StyleSheet, Text, View} from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+
+import * as actions from 'navigation/actions';
 
 export default class Home extends PureComponent {
     static navigationOptions = () => ({
@@ -10,12 +12,12 @@ export default class Home extends PureComponent {
     render() {
         return (
             <View style={styles.container}>
-                <View style={styles.top}>
+                <TouchableOpacity style={styles.top} onPress={actions.showAlgorithmsScreen}>
                     <Text style={styles.text}>Алгоритмы</Text>
-                </View>
-                <View style={styles.bottom}>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.bottom} onPress={actions.showDataStructuresScreen}>
                     <Text style={styles.text}>Сткрутуры данных</Text>
-                </View>
+                </TouchableOpacity>
             </View>
         );
     }

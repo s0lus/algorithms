@@ -1,11 +1,13 @@
 
 import { createStackNavigator } from 'react-navigation';
 
-import { Home } from 'components';
+import { Home, DataStructures, Algorithms } from 'components';
 
 export const RootNavigation = createStackNavigator(
     {
-        Home
+        Home,
+        DataStructures,
+        Algorithms,
     },
     {
         initialRouteName: 'Home'
