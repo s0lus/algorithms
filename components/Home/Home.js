@@ -3,6 +3,7 @@ import React, { PureComponent } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 
 import * as actions from 'navigation/actions';
+import * as Data from 'resources/data/ru.json';
 
 export default class Home extends PureComponent {
     static navigationOptions = () => ({
@@ -13,10 +14,10 @@ export default class Home extends PureComponent {
         return (
             <View style={styles.container}>
                 <TouchableOpacity style={styles.top} onPress={actions.showAlgorithmsScreen}>
-                    <Text style={styles.text}>Алгоритмы</Text>
+                    <Text style={styles.text}>{Data.Algorithms.Title}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.bottom} onPress={actions.showDataStructuresScreen}>
-                    <Text style={styles.text}>Сткрутуры данных</Text>
+                    <Text style={styles.text}>{Data.DataStructures.Title}</Text>
                 </TouchableOpacity>
             </View>
         );
