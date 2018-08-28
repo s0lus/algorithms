@@ -1,9 +1,9 @@
 
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 
-import * as actions from 'navigation/actions';
-import * as Data from 'resources/data/ru.json';
+import * as actions from "navigation/actions";
+import * as Data from "resources/data/ru.json";
 
 export default class Home extends PureComponent {
     static navigationOptions = () => ({
@@ -27,29 +27,29 @@ export default class Home extends PureComponent {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#FFFFFF',
-        justifyContent: 'space-around',
-        alignItems: 'center',
+        backgroundColor: "#FFFFFF",
+        justifyContent: "space-around",
+        alignItems: "center",
     },
     top: {
-        backgroundColor: '#FFFFFF',
-        justifyContent: 'center',
+        backgroundColor: "#FFFFFF",
+        justifyContent: "center",
         borderWidth: 1,
         borderRadius: 10,
-        borderColor: '#000000',
+        borderColor: "#000000",
         height: 100,
-        width: '85%',
+        width: "85%",
     },
     bottom: {
-        backgroundColor: '#FFFFFF',
-        justifyContent: 'center',
+        backgroundColor: "#FFFFFF",
+        justifyContent: "center",
         borderWidth: 1,
         borderRadius: 10,
-        borderColor: '#000000',
+        borderColor: "#000000",
         height: 100,
-        width: '85%',
+        width: "85%",
     },
     text: {
-        textAlign: 'center',
+        textAlign: "center",
     }
 });

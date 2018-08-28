@@ -1,8 +1,8 @@
 
-import React from 'react';
-import { RootNavigation } from 'navigation';
+import React from "react";
+import { RootNavigation } from "navigation";
 
-import { NavigationService } from 'services';
+import { NavigationService } from "services";
 
 export default class App extends React.Component {
     render() {
@@ -10,7 +10,7 @@ export default class App extends React.Component {
             <RootNavigation
                 ref={
                     (navigationRef) => {
-                        NavigationService.setTopLevelNavigator(navigationRef)
+                        NavigationService.setTopLevelNavigator(navigationRef);
                     }
                 }
             />
