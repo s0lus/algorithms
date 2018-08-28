@@ -8,3 +8,7 @@ export function showDataStructuresScreen() {
 export function showAlgorithmsScreen() {
     NavigationService.navigate('Algorithms')
 }
+
+export function showArrayScreen() {
+    NavigationService.navigate('Array');
+}

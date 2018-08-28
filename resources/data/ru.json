@@ -3,6 +3,18 @@
     "Title": "Структуры данных",
     "Array": {
       "Title": "Массив"
+    },
+    "Stack": {
+      "Title": "Стек"
+    },
+    "Queue": {
+      "Title": "Очередь"
+    },
+    "Set": {
+      "Title": "Множество"
+    },
+    "Map": {
+      "Title": "Карта"
     }
   },
   "Algorithms": {
