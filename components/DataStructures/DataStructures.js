@@ -2,17 +2,20 @@
 import React, { PureComponent } from "react";
 import { Text, StyleSheet, TouchableOpacity, ScrollView } from "react-native";
 
+import { showArrayScreen } from "navigation/actions";
+
 import * as Data from "resources/data/ru.json";
 
 export default class DataStructures extends PureComponent {
     static navigationOptions = () => ({
         headerTitle: Data.DataStructures.Title,
+        headerBackTitle: null,
     });
 
     render() {
         return (
             <ScrollView style={styles.container}>
-                <TouchableOpacity style={styles.dataStructure}>
+                <TouchableOpacity style={styles.dataStructure} onPress={showArrayScreen}>
                     <Text>{Data.DataStructures.Array.Title}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure}>
