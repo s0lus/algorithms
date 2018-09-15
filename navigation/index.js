@@ -11,6 +11,9 @@ export const RootNavigation = createStackNavigator(
         Array,
     },
     {
-        initialRouteName: "Home"
+        initialRouteName: "Home",
+        cardStyle: {
+            backgroundColor: "#FFFFFF",
+        }
     }
 );
