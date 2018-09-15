@@ -5,7 +5,8 @@
   "devDependencies": {
     "babel-eslint": "^9.0.0",
     "babel-plugin-module-resolver": "^3.1.1",
-    "babel-preset-react-native": "^5.0.2",
+    "@babel/plugin-transform-react-jsx-source": "^7.0.0",
+    "metro-react-native-babel-preset": "^0.45.0",
     "eslint": "^5.4.0",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-react": "^7.11.1",
@@ -24,8 +25,8 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "react": "16.4.2",
-    "react-native": "~0.56.0",
+    "react": "16.5.1",
+    "react-native": "~0.57.0",
     "react-navigation": "^2.11.2"
   }
 }
