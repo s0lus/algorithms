@@ -1,9 +1,9 @@
 
 import React, { PureComponent } from "react";
-import { Text, Image, StyleSheet, ScrollView } from "react-native";
+import { View, Text, Image, StyleSheet, ScrollView } from "react-native";
 
 import * as Data from "resources/data/ru.json";
-import array from "resources/pictures/array.png";
+import * as Picture from "resources/pictures";
 
 export default class Array extends PureComponent {
     static navigationOptions = () => ({
@@ -16,27 +16,44 @@ export default class Array extends PureComponent {
                 <Text style={styles.text}>
                     {Data.DataStructures.Array.Term}
                 </Text>
-                <Image source={array} style={styles.image} resizeMode="contain"/>
-                <Text style={styles.typesTitle}>
+                <Image source={Picture.array} style={styles.image} resizeMode="contain"/>
+                <Text style={styles.titleBig}>
                     {Data.DataStructures.Array.Types}
                 </Text>
-                <Text style={styles.typeStatic}>
+                <Text style={styles.titleSmall}>
                     {Data.DataStructures.Array.TypeStatic.Title}
                 </Text>
                 <Text style={styles.termText}>
                     {Data.DataStructures.Array.TypeStatic.Term}
                 </Text>
-                <Text style={styles.typeDynamic}>
+                <Text style={styles.titleSmall}>
                     {Data.DataStructures.Array.TypeDynamic.Title}
                 </Text>
                 <Text style={styles.termText}>
                     {Data.DataStructures.Array.TypeDynamic.Term}
                 </Text>
-                <Text style={styles.typeHeterogeneous}>
+                <Text style={styles.titleSmall}>
                     {Data.DataStructures.Array.TypeHeterogeneous.Title}
                 </Text>
                 <Text style={styles.termText}>
                     {Data.DataStructures.Array.TypeHeterogeneous.Term}
+                </Text>
+                <Text style={styles.titleBig}>
+                    {Data.DataStructures.Array.Memory.Title}
+                </Text>
+                <Image source={Picture.array_in_memory} style={styles.image} resizeMode="contain"/>
+                <Text style={styles.termText}>
+                    {Data.DataStructures.Array.Memory.Term}
+                </Text>
+                <View style={styles.featuresTitleWrapper}>
+                    <Text style={styles.titleBig}>
+                        {Data.DataStructures.Array.Features.Title}
+                    </Text>
+                </View>
+                <Text style={{ textAlign: "left" }}>
+                    {Data.DataStructures.Array.Features.Feature_1}
+                    {Data.DataStructures.Array.Features.Feature_2}
+                    {Data.DataStructures.Array.Features.Feature_3}
                 </Text>
             </ScrollView>
         );
@@ -57,20 +74,16 @@ const styles = StyleSheet.create({
     termText: {
         textAlign: "left",
     },
-    typesTitle: {
+    titleBig: {
         fontSize: 18,
         textAlign: "center",
     },
-    typeStatic: {
+    titleSmall: {
         fontSize: 16,
         textAlign: "center",
     },
-    typeDynamic: {
-        fontSize: 16,
-        textAlign: "center",
-    },
-    typeHeterogeneous: {
-        fontSize: 16,
-        textAlign: "center",
+    featuresTitleWrapper: {
+        marginTop: 10,
+        paddingBottom: 10,
     }
 });
