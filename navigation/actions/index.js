@@ -12,3 +12,7 @@ export function showAlgorithmsScreen() {
 export function showArrayScreen() {
     NavigationService.navigate("Array");
 }
+
+export function showQueueScreen() {
+    NavigationService.navigate("Queue");
+}
