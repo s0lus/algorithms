@@ -9,7 +9,8 @@
     "eslint": "^5.6.0",
     "eslint-plugin-babel": "^5.2.0",
     "eslint-plugin-react": "^7.11.1",
-    "metro-react-native-babel-preset": "^0.45.3"
+    "metro-react-native-babel-preset": "^0.45.3",
+    "pre-commit": "^1.2.2"
   },
   "scripts": {
     "start": "react-native start --reset-cache",
@@ -25,5 +26,8 @@
     "react": "16.5.1",
     "react-native": "~0.57.0",
     "react-navigation": "^2.14.2"
+  },
+  "pre-commit": {
+    "run": "lint"
   }
 }
