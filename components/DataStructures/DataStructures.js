@@ -2,7 +2,7 @@
 import React, { PureComponent } from "react";
 import { Text, StyleSheet, TouchableOpacity, ScrollView } from "react-native";
 
-import { showArrayScreen, showQueueScreen } from "navigation/actions";
+import { showArrayScreen, showQueueScreen, showStackScreen } from "navigation/actions";
 
 import * as Data from "resources/data/ru.json";
 
@@ -21,14 +21,14 @@ export default class DataStructures extends PureComponent {
                 <TouchableOpacity style={styles.dataStructure} onPress={showQueueScreen}>
                     <Text>{Data.DataStructures.Queue.Title}</Text>
                 </TouchableOpacity>
+                <TouchableOpacity style={styles.dataStructure} onPress={showStackScreen}>
+                    <Text>{Data.DataStructures.Stack.Title}</Text>
+                </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure}>
                     <Text>{Data.DataStructures.Set.Title}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure}>
                     <Text>{Data.DataStructures.Map.Title}</Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={styles.dataStructure}>
-                    <Text>{Data.DataStructures.Stack.Title}</Text>
                 </TouchableOpacity>
             </ScrollView>
         );

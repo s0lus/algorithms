@@ -16,3 +16,7 @@ export function showArrayScreen() {
 export function showQueueScreen() {
     NavigationService.navigate("Queue");
 }
+
+export function showStackScreen() {
+    NavigationService.navigate("Stack");
+}
