@@ -1,6 +1,7 @@
 
 import React, { PureComponent } from "react";
 import { ScrollView, Text, StyleSheet, Image } from "react-native";
+import { SafeAreaView } from "react-navigation";
 
 import * as Picture from "resources/pictures";
 import * as Data from "resources/data/ru.json";
@@ -12,12 +13,14 @@ export default class Queue extends PureComponent {
 
     render() {
         return (
-            <ScrollView style={styles.root} contentContainerStyle={styles.content}>
-                <Text>
-                    {Data.DataStructures.Queue.Term}
-                </Text>
-                <Image source={Picture.queue} style={styles.image} resizeMode="contain" />
-            </ScrollView>
+            <SafeAreaView style={styles.root}>
+                <ScrollView contentContainerStyle={styles.content}>
+                    <Text>
+                        {Data.DataStructures.Queue.Term}
+                    </Text>
+                    <Image source={Picture.queue} style={styles.image} resizeMode="contain"/>
+                </ScrollView>
+            </SafeAreaView>
         );
     }
 }

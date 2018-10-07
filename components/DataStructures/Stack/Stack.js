@@ -1,6 +1,7 @@
 
 import React, { PureComponent } from "react";
 import { StyleSheet, ScrollView, Text, Image } from "react-native";
+import { SafeAreaView } from "react-navigation";
 
 import * as Data from "resources/data/ru.json";
 import * as Picture from "resources/pictures";
@@ -12,15 +13,17 @@ export default class Stack extends PureComponent {
 
     render() {
         return (
-            <ScrollView style={styles.root} contentContainerStyle={styles.content}>
-                <Text>{Data.DataStructures.Stack.Term}</Text>
-                <Image source={Picture.stack} style={styles.image} resizeMode="contain" />
-                <Text style={styles.titleSmall}>{Data.DataStructures.Stack.Operations.Title}</Text>
-                <Image source={Picture.stack_op} style={styles.image_operations} resizeMode="contain" />
-                <Text>{Data.DataStructures.Stack.Operations.Push}</Text>
-                <Text>{Data.DataStructures.Stack.Operations.Pop}</Text>
-                <Text>{Data.DataStructures.Stack.Operations.Peek}</Text>
-            </ScrollView>
+            <SafeAreaView style={styles.root}>
+                <ScrollView contentContainerStyle={styles.content}>
+                    <Text>{Data.DataStructures.Stack.Term}</Text>
+                    <Image source={Picture.stack} style={styles.image} resizeMode="contain"/>
+                    <Text style={styles.titleSmall}>{Data.DataStructures.Stack.Operations.Title}</Text>
+                    <Image source={Picture.stack_op} style={styles.image_operations} resizeMode="contain"/>
+                    <Text>{Data.DataStructures.Stack.Operations.Push}</Text>
+                    <Text>{Data.DataStructures.Stack.Operations.Pop}</Text>
+                    <Text>{Data.DataStructures.Stack.Operations.Peek}</Text>
+                </ScrollView>
+            </SafeAreaView>
         );
     }
 }
