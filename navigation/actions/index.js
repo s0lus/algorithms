@@ -20,3 +20,7 @@ export function showQueueScreen() {
 export function showStackScreen() {
     NavigationService.navigate("Stack");
 }
+
+export function showSetScreen() {
+    NavigationService.navigate("Set");
+}
