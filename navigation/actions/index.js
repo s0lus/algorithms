@@ -24,3 +24,7 @@ export function showStackScreen() {
 export function showSetScreen() {
     NavigationService.navigate("Set");
 }
+
+export function showMapScreen() {
+    NavigationService.navigate("Map");
+}

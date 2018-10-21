@@ -1,7 +1,7 @@
 
 import { createStackNavigator } from "react-navigation";
 
-import { Home, DataStructures, Algorithms, Array, Queue, Stack, Set } from "components";
+import { Home, DataStructures, Algorithms, Array, Queue, Stack, Set, Map } from "components";
 
 export const RootNavigation = createStackNavigator(
     {
@@ -12,6 +12,7 @@ export const RootNavigation = createStackNavigator(
         Queue,
         Stack,
         Set,
+        Map,
     },
     {
         initialRouteName: "Home",
