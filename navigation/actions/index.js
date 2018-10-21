@@ -28,3 +28,7 @@ export function showSetScreen() {
 export function showMapScreen() {
     NavigationService.navigate("Map");
 }
+
+export function showHashTablesScreen() {
+    NavigationService.navigate("HashTable");
+}

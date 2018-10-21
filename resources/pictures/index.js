@@ -5,6 +5,7 @@ import queue from "./queue.png";
 import stack from "./stack.png";
 import stack_op from "./stack_op.png";
 import map from "./map.png";
+import hash_table from "./hash_table.png";
 
 export {
     array,
@@ -13,4 +14,5 @@ export {
     stack,
     stack_op,
     map,
+    hash_table,
 };
