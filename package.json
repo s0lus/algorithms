@@ -25,7 +25,7 @@
   "dependencies": {
     "react": "16.5.1",
     "react-native": "~0.57.0",
-    "react-navigation": "^2.14.2"
+    "react-navigation": "^2.18.0"
   },
   "pre-commit": {
     "run": "lint"
