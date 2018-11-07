@@ -11,11 +11,11 @@ import {
     showStackScreen
 } from "navigation/actions";
 
-import * as Data from "resources/data/ru.json";
+import {i18n} from "utils";
 
 export default class DataStructures extends PureComponent {
     static navigationOptions = () => ({
-        headerTitle: Data.DataStructures.Title,
+        headerTitle: i18n("DataStructures.Title"),
         headerBackTitle: null,
     });
 
@@ -23,22 +23,22 @@ export default class DataStructures extends PureComponent {
         return (
             <ScrollView style={styles.container}>
                 <TouchableOpacity style={styles.dataStructure} onPress={showArrayScreen}>
-                    <Text>{Data.DataStructures.Array.Title}</Text>
+                    <Text>{i18n("DataStructures.Array.Title")}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure} onPress={showQueueScreen}>
-                    <Text>{Data.DataStructures.Queue.Title}</Text>
+                    <Text>{i18n("DataStructures.Queue.Title")}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure} onPress={showStackScreen}>
-                    <Text>{Data.DataStructures.Stack.Title}</Text>
+                    <Text>{i18n("DataStructures.Stack.Title")}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure} onPress={showSetScreen}>
-                    <Text>{Data.DataStructures.Set.Title}</Text>
+                    <Text>{i18n("DataStructures.Set.Title")}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure} onPress={showMapScreen}>
-                    <Text>{Data.DataStructures.Map.Title}</Text>
+                    <Text>{i18n("DataStructures.Map.Title")}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure} onPress={showHashTablesScreen}>
-                    <Text>{Data.DataStructures.HashTables.Title}</Text>
+                    <Text>{i18n("DataStructures.HashTables.Title")}</Text>
                 </TouchableOpacity>
             </ScrollView>
         );

@@ -3,12 +3,13 @@ import React, { PureComponent } from "react";
 import { ScrollView, StyleSheet, Text, Image, View } from "react-native";
 import { SafeAreaView } from "react-navigation";
 
-import * as Data from "resources/data/ru.json";
+import { i18n } from "utils";
+
 import * as Picture from "resources/pictures";
 
 export default class Map extends PureComponent {
     static navigationOptions = () => ({
-        headerTitle: Data.DataStructures.Map.Title,
+        headerTitle: i18n("DataStructures.Map.Title"),
     });
 
     render() {
@@ -16,19 +17,19 @@ export default class Map extends PureComponent {
             <SafeAreaView style={styles.root}>
                 <ScrollView contentContainerStyle={styles.content}>
                     <Text>
-                        {Data.DataStructures.Map.Term}
+                        {i18n("DataStructures.Map.Term")}
                     </Text>
                     <View style={styles.imageCentered}>
                         <Image source={Picture.map} style={styles.image}/>
                     </View>
                     <Text style={styles.titleBig}>
-                        {Data.DataStructures.Map.Operations.Title}
+                        {i18n("DataStructures.Map.Operations.Title")}
                     </Text>
                     <Text style={styles.operations}>
-                        {Data.DataStructures.Map.Operations.Add}
-                        {Data.DataStructures.Map.Operations.Remove}
-                        {Data.DataStructures.Map.Operations.Change}
-                        {Data.DataStructures.Map.Operations.Find}
+                        {i18n("DataStructures.Map.Operations.Add")}
+                        {i18n("DataStructures.Map.Operations.Remove")}
+                        {i18n("DataStructures.Map.Operations.Change")}
+                        {i18n("DataStructures.Map.Operations.Find")}
                     </Text>
                 </ScrollView>
             </SafeAreaView>

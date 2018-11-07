@@ -3,12 +3,14 @@ import React, { PureComponent } from "react";
 import { ScrollView, Text, StyleSheet, Image } from "react-native";
 import { SafeAreaView } from "react-navigation";
 
+import {i18n} from "utils";
+
 import * as Picture from "resources/pictures";
-import * as Data from "resources/data/ru.json";
+
 
 export default class Queue extends PureComponent {
     static navigationOptions = () => ({
-        headerTitle: Data.DataStructures.Queue.Title,
+        hi18naderTitle: i18n("DataStructures.Queue.Title)"),
     });
 
     render() {
@@ -16,7 +18,7 @@ export default class Queue extends PureComponent {
             <SafeAreaView style={styles.root}>
                 <ScrollView contentContainerStyle={styles.content}>
                     <Text>
-                        {Data.DataStructures.Queue.Term}
+                        {i18n("DataStructures.Queue.Term")}
                     </Text>
                     <Image source={Picture.queue} style={styles.image} resizeMode="contain"/>
                 </ScrollView>

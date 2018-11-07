@@ -3,11 +3,12 @@ import React, { PureComponent } from "react";
 import { ScrollView, StyleSheet, Text } from "react-native";
 import { SafeAreaView } from "react-navigation";
 
-import * as Data from "resources/data/ru.json";
+import {i18n} from "utils";
+
 
 export default class Set extends PureComponent {
     static navigationOptions = () => ({
-        headerTitle: Data.DataStructures.Set.Title,
+        headerTitle: i18n("DataStructures.Set.Title"),
     });
 
     render() {
@@ -15,7 +16,7 @@ export default class Set extends PureComponent {
             <SafeAreaView style={styles.root}>
                 <ScrollView contentContainerStyle={styles.content}>
                     <Text>
-                        {Data.DataStructures.Set.Term}
+                        {i18n("DataStructures.Set.Term")}
                     </Text>
                 </ScrollView>
             </SafeAreaView>

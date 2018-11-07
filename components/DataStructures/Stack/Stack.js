@@ -3,25 +3,26 @@ import React, { PureComponent } from "react";
 import { StyleSheet, ScrollView, Text, Image } from "react-native";
 import { SafeAreaView } from "react-navigation";
 
-import * as Data from "resources/data/ru.json";
+import {i18n} from "utils";
+
 import * as Picture from "resources/pictures";
 
 export default class Stack extends PureComponent {
     static navigationOptions = () => ({
-        headerTitle: Data.DataStructures.Stack.Title,
+        headerTitle: i18n("DataStructures.Stack").Title,
     });
 
     render() {
         return (
             <SafeAreaView style={styles.root}>
                 <ScrollView contentContainerStyle={styles.content}>
-                    <Text>{Data.DataStructures.Stack.Term}</Text>
+                    <Text>{i18n("DataStructures.Stack.Term")}</Text>
                     <Image source={Picture.stack} style={styles.image} resizeMode="contain"/>
-                    <Text style={styles.titleSmall}>{Data.DataStructures.Stack.Operations.Title}</Text>
+                    <Text style={styles.titleSmall}>{i18n("DataStructures.Stack.Operations.Title")}</Text>
                     <Image source={Picture.stack_op} style={styles.image_operations} resizeMode="contain"/>
-                    <Text>{Data.DataStructures.Stack.Operations.Push}</Text>
-                    <Text>{Data.DataStructures.Stack.Operations.Pop}</Text>
-                    <Text>{Data.DataStructures.Stack.Operations.Peek}</Text>
+                    <Text>{i18n("DataStructures.Stack.Operations.Push")}</Text>
+                    <Text>{i18n("DataStructures.Stack.Operations.Pop")}</Text>
+                    <Text>{i18n("DataStructures.Stack.Operations.Peek")}</Text>
                 </ScrollView>
             </SafeAreaView>
         );

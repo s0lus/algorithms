@@ -3,12 +3,13 @@ import React, { PureComponent } from "react";
 import { ScrollView, Text, StyleSheet, Image, View } from "react-native";
 import { SafeAreaView } from "react-navigation";
 
-import * as Data from "resources/data/ru.json";
+import { i18n } from "utils";
+
 import * as Picture from "resources/pictures";
 
 export default class HashTables extends PureComponent {
     static navigationOptions = () => ({
-        headerTitle: Data.DataStructures.HashTables.Title,
+        headerTitle: i18n("DataStructures.HashTables.Title"),
     });
 
     render() {
@@ -16,16 +17,16 @@ export default class HashTables extends PureComponent {
             <SafeAreaView style={styles.root}>
                 <ScrollView style={styles.content}>
                     <Text>
-                        {Data.DataStructures.HashTables.Term}
+                        {i18n("DataStructures.HashTables.Term")}
                     </Text>
                     <View style={styles.imageCentered}>
                         <Image source={Picture.hash_table} style={styles.image} />
                     </View>
                     <Text style={styles.titleBig}>
-                        {Data.DataStructures.HashTables.CollisionResolve.Title}
+                        {i18n("DataStructures.HashTables.CollisionResolve.Title")}
                     </Text>
                     <Text>
-                        {Data.DataStructures.HashTables.CollisionResolve.Intro}
+                        {i18n("DataStructures.HashTables.CollisionResolve.Intro")}
                     </Text>
                 </ScrollView>
             </SafeAreaView>

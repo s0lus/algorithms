@@ -3,12 +3,13 @@ import React, { PureComponent } from "react";
 import { View, Text, Image, StyleSheet, ScrollView } from "react-native";
 import { SafeAreaView } from "react-navigation";
 
-import * as Data from "resources/data/ru.json";
+import { i18n } from "utils";
+
 import * as Picture from "resources/pictures";
 
 export default class Array extends PureComponent {
     static navigationOptions = () => ({
-        headerTitle: Data.DataStructures.Array.Title,
+        headerTitle: i18n("DataStructures.Array.Title"),
     });
 
     render() {
@@ -16,46 +17,46 @@ export default class Array extends PureComponent {
             <SafeAreaView style={styles.root}>
                 <ScrollView contentContainerStyle={styles.content}>
                     <Text style={styles.text}>
-                        {Data.DataStructures.Array.Term}
+                        {i18n("DataStructures.Array.Term")}
                     </Text>
                     <Image source={Picture.array} style={styles.image} resizeMode="contain"/>
                     <Text style={styles.titleBig}>
-                        {Data.DataStructures.Array.Types}
+                        {i18n("DataStructures.Array.Types")}
                     </Text>
                     <Text style={styles.titleSmall}>
-                        {Data.DataStructures.Array.TypeStatic.Title}
+                        {i18n("DataStructures.Array.TypeStatic.Title")}
                     </Text>
                     <Text style={styles.termText}>
-                        {Data.DataStructures.Array.TypeStatic.Term}
+                        {i18n("DataStructures.Array.TypeStatic.Term")}
                     </Text>
                     <Text style={styles.titleSmall}>
-                        {Data.DataStructures.Array.TypeDynamic.Title}
+                        {i18n("DataStructures.Array.TypeDynamic.Title")}
                     </Text>
                     <Text style={styles.termText}>
-                        {Data.DataStructures.Array.TypeDynamic.Term}
+                        {i18n("DataStructures.Array.TypeDynamic.Term")}
                     </Text>
                     <Text style={styles.titleSmall}>
-                        {Data.DataStructures.Array.TypeHeterogeneous.Title}
+                        {i18n("DataStructures.Array.TypeHeterogeneous.Title")}
                     </Text>
                     <Text style={styles.termText}>
-                        {Data.DataStructures.Array.TypeHeterogeneous.Term}
+                        {i18n("DataStructures.Array.TypeHeterogeneous.Term")}
                     </Text>
                     <Text style={styles.titleBig}>
-                        {Data.DataStructures.Array.Memory.Title}
+                        {i18n("DataStructures.Array.Memory.Title")}
                     </Text>
                     <Image source={Picture.array_in_memory} style={styles.image} resizeMode="contain"/>
                     <Text style={styles.termText}>
-                        {Data.DataStructures.Array.Memory.Term}
+                        {i18n("DataStructures.Array.Memory.Term")}
                     </Text>
                     <View style={styles.featuresTitleWrapper}>
                         <Text style={styles.titleBig}>
-                            {Data.DataStructures.Array.Features.Title}
+                            {i18n("DataStructures.Array.Features.Title")}
                         </Text>
                     </View>
                     <Text style={{textAlign: "left"}}>
-                        {Data.DataStructures.Array.Features.Feature_1}
-                        {Data.DataStructures.Array.Features.Feature_2}
-                        {Data.DataStructures.Array.Features.Feature_3}
+                        {i18n("DataStructures.Array.Features.Feature_1")}
+                        {i18n("DataStructures.Array.Features.Feature_2")}
+                        {i18n("DataStructures.Array.Features.Feature_3")}
                     </Text>
                 </ScrollView>
             </SafeAreaView>
