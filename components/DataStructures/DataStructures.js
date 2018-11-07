@@ -8,7 +8,8 @@ import {
     showMapScreen,
     showQueueScreen,
     showSetScreen,
-    showStackScreen
+    showStackScreen,
+    showLinkedListScreen,
 } from "navigation/actions";
 
 import {i18n} from "utils";
@@ -39,6 +40,9 @@ export default class DataStructures extends PureComponent {
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.dataStructure} onPress={showHashTablesScreen}>
                     <Text>{i18n("DataStructures.HashTables.Title")}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.dataStructure} onPress={showLinkedListScreen}>
+                    <Text>{i18n("DataStructures.LinkedList.Title")}</Text>
                 </TouchableOpacity>
             </ScrollView>
         );

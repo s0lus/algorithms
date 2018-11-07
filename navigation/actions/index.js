@@ -32,3 +32,7 @@ export function showMapScreen() {
 export function showHashTablesScreen() {
     NavigationService.navigate("HashTable");
 }
+
+export function showLinkedListScreen() {
+    NavigationService.navigate("LinkedList");
+}
