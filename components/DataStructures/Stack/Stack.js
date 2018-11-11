@@ -20,9 +20,11 @@ export default class Stack extends PureComponent {
                     <Image source={Picture.stack} style={styles.image} resizeMode="contain"/>
                     <Text style={styles.titleSmall}>{i18n("DataStructures.Stack.Operations.Title")}</Text>
                     <Image source={Picture.stack_op} style={styles.image_operations} resizeMode="contain"/>
-                    <Text>{i18n("DataStructures.Stack.Operations.Push")}</Text>
-                    <Text>{i18n("DataStructures.Stack.Operations.Pop")}</Text>
-                    <Text>{i18n("DataStructures.Stack.Operations.Peek")}</Text>
+                    <Text>
+                        {i18n("DataStructures.Stack.Operations.Push")}
+                        {i18n("DataStructures.Stack.Operations.Pop")}
+                        {i18n("DataStructures.Stack.Operations.Peek")}
+                    </Text>
                 </ScrollView>
             </SafeAreaView>
         );

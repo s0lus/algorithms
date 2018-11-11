@@ -24,9 +24,9 @@ export default class HashTables extends PureComponent {
                     </View>
                     <Text style={styles.titleBig}>
                         {i18n("DataStructures.HashTables.CollisionResolve.Title")}
-                    </Text>
-                    <Text>
-                        {i18n("DataStructures.HashTables.CollisionResolve.Intro")}
+                        <Text style={styles.textIntro}>
+                            {i18n("DataStructures.HashTables.CollisionResolve.Intro")}
+                        </Text>
                     </Text>
                 </ScrollView>
             </SafeAreaView>
@@ -48,6 +48,9 @@ const styles = StyleSheet.create({
     titleBig: {
         fontSize: 18,
         textAlign: "center",
+    },
+    textIntro: {
+        textAlign: "left",
     },
     image: {
         marginVertical: 15,
