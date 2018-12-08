@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.5.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cc5b65162cf57363b4a924805f16947660918cdf">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.5.1_382b960483a07d632b355e681b1127fec3ec51b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/support-annotations-27.1.1_2edd80583b309056d20ca967b254bb5ebd70c87f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/27.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-27.1.1_ecb6d70459fab580998b0f3fc88d008d1fc229d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_6a27e9f49e74af1b4efef1657234ff2e606f2e2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="102d7be47241d781ef95f1581d414b0943053130">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/okio-1.14.0_66147d517fb37503fe6d01937f37596002c8f00e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="df777c6b52d3e1840381b41615b99f290201638d">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.10.0_24e60398e56c3840cf1d852758e678dea08ce9df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.1.0_39e00e8aeabb0ec38ca89a74b5e70078ac4e96b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/27.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-27.1.1_32a5bc3bc4ab841f03042ed69f42d9f974aea624.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="75966e05a49046ca2ae734e5626f28837a8d1e82">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/okhttp-3.11.0_3a82b76a21f11e15ee3f09484a0c73db42059c47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.11.0/54ec442e9c0fac51265110cf0cb44dfe5ad1ea05/okhttp-urlconnection-3.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="54ec442e9c0fac51265110cf0cb44dfe5ad1ea05">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.11.0_7e24dbe92bca57b5dfc9779dbb11be94bb52be15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/27.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-27.1.1_c93dc1a5109ddeb5f1d3b5d99449cad6789d4a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25ea2e8b0c338a877313bd4672d3fe056ea78f0d">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.2_655df87976287809a114b6eb12ad07c519fa8895.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.57.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba16f8b75456b392d8107bc3ed63877b8469ac45">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.57.4_b5e23ff425a8f31713eed3fdf2249948bf9dedea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="61741c492af29679431ed009915fe0538dd6b1ce">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.10.0_178df97c5cd19ec441ab136e278635350d033149.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/common-1.1.0_4204202daf3c7a6ec13b32966089a8cf9c647b2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_e793bcae0bc5209c975140656822054224784156.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e3b76ad3c1f40d13f12aa2458deaca8d6820a5e7">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.10.0_6d7cad87759d60ea8b1f4c2bbb111bdfd5a7d6ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2648a2080054daa5ff07cbce9fded91153be4b11">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.10.0_84024f3f675f092e8468f79b79491a5ebec2eb82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bf98d9bbac6d175c40d9a3d1d8da77fbbcf0a81c">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.10.0_887137a64f66b7f3e6d1a92d07dc6df5f9cc6c69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/common-1.1.0_049eff9c66ca73ab9c644a610c1c5acb52e05af8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/android.arch.lifecycle/viewmodel/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-viewmodel-1.1.0_7bbb9f83727d027cae74c414a4d643f914e7d043.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/android.arch.core/runtime/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/android.arch.core-runtime-1.1.0_e2e4228fe9566d5f35f3235e32e5e633adedd3bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/27.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-27.1.1_481860953ee32cbf24fd17687d635d68d6b1aa0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/27.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-27.1.1_baffbccfd254d0633c57e3ff0aab09c4dc55b2b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26e08c73415d43f2fa1cca5212d2e4d650503ddd">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.10.0_1fbaba3adac55fed4277e87441723e4f118a3bd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/.gradle/caches/modules-2/files-2.1/com.facebook.infer.annotation/infer-annotation/0.11.2/f514ff4ca022a579d9cf7524846988b646ae4491/infer-annotation-0.11.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f514ff4ca022a579d9cf7524846988b646ae4491">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/infer-annotation-0.11.2_cbca856f557482aad96000a6e9db263fbc71f05a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/android.arch.lifecycle/livedata-core/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-livedata-core-1.1.0_869f54627d02b619c1771055613bb52745929525.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/27.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-27.1.1_98a34aa76fef1fd898aca404ae5119927e3dc315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexander/Github/algorithms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="/Users/alexander/Github/algorithms/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-27.1.1_9fa70239b121bf63a5f7f752afc005d1226af6ba.jar" />
+    </item>
+
+</items>
