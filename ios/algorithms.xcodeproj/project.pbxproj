@@ -1069,6 +1069,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = algorithms.app;
 				PRODUCT_NAME = algorithms;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1086,6 +1087,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = algorithms.app;
 				PRODUCT_NAME = algorithms;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
